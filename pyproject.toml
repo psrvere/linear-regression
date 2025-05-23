@@ -1,0 +1,11 @@
+[project]
+name = "linear-regression"
+version = "0.1.0"
+description = "Linear Regression with PyTorch"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.3",
+    "numpy>=2.2.6",
+    "torch>=2.7.0",
+]
