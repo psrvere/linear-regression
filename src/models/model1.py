@@ -1,7 +1,8 @@
 import torch
 import torch.nn as nn
+from .base import BaseModel
 
-class LinearRegressionModel1(nn.Module):
+class LinearRegressionModel1(BaseModel):
     def __init__(self):
         super().__init_()
         self.Linear = nn.Linear(1,1)
